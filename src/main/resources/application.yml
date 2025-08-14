@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/moviebookingapp
+    username: root
+    password: sumi2125@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-plarform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: 37f1150c6560cbfe4a5f668514f8db3f
+  expiration: 3600000
+
+
+
